@@ -12,7 +12,7 @@ If you know how to use you-get (see https://github.com/soimort/you-get), you can
 By default, videos will be saved to `/download` in the container, so, you should set volume like this:
 
 ```shell
-docker run --rm -v /some/path/to/save/videos:/download you-get [OPTIONS..] URL
+docker run --rm -v /some/path/to/save/videos:/download kmdgeek/you-get [OPTIONS..] URL
 ```
 
 ### Example
