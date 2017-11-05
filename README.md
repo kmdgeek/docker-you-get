@@ -22,7 +22,8 @@ To get quality and formats:
 
 ```shell
 $ docker run --rm kmdgeek/you-get -i 'https://www.youtube.com/watch?v=EotbKqZmBuY'
-
+```
+```
 site:                YouTube
 title:               The Great Wall of China in 4k - DJI Phantom 4
 streams:             # Available quality and codecs
@@ -54,7 +55,8 @@ Download the video in `3840x2160` quality and save to ~/videos:
 
 ```shell
 $ docker run --rm -v ~/videos:/download kmdgeek/you-get --itag=313 'https://www.youtube.com/watch?v=EotbKqZmBuY'
-
+```
+```
 site:                YouTube
 title:               The Great Wall of China in 4k - DJI Phantom 4
 stream:
